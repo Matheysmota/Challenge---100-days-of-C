@@ -12,7 +12,6 @@ int main (void)
     {
         height = get_int("Enter a height: ");
     }while(height < 1 || height > 8);
-
     // init looping
     for(int size = 0; size < height ; size++)
     {
